@@ -52,7 +52,7 @@ int main( int argc, const char** argv )
 	namedWindow("Face Swap", 1);
 	
   // load alternative face
-  face = imread("faces/freeman.png", CV_LOAD_IMAGE_COLOR);
+  face = imread("freeman.png", CV_LOAD_IMAGE_COLOR);
 	cvtColor(face, face, CV_BGR2GRAY);
 	
 	while (1) {
